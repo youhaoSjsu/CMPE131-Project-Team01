@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Use Case Description
 
 Date:
@@ -79,3 +80,6 @@ Only if you have alt seq
 ### Alternate Trigger
 
 ### Alternate Postcondition
+=======
+# CMPE131-Project-Team01
+>>>>>>> 7481174c2c7fe1de703c57c38563b94385959ea1
