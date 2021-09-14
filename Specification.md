@@ -8,7 +8,7 @@ Youhao Chen 	- Github user:
 
 Khuong Huynh   - Github user: huynhkhuong69
 
-Jose Betancourt Jr.Huiza -Github user: h0se69
+Jose Betancourt Jr.Huizar -Github user: h0se69
 
 PRODUCT NAME: ProStudent
 
