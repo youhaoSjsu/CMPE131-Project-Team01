@@ -440,4 +440,96 @@ Non-functional Requirements:
 	
 
 ## Primary Postconditions - system will notified if the answer is right or wrong.
+===================================================================================
+
+
+Case Name : Time spend on assignments
+
+## summary
+- system will timing the time of doing an assignment, So that system could collect the data of student efficient
+## Actor
+- users(student) 
+## preconditions
+- user is doing the assignment
+- user clicked the start doing button
+- Application keep active during the homework time
+- user clicked the finish assignment button on time
+## Trigers
+- click the start button
+- click the finish button
+## primary Sequence
+- step 1:  Navigate to the assignment interface
+- step 2: click the start button
+- step3: click the end button 
+## Alternate Sequences (If user need a break during the HW time)
+- click the pause button when user want to pause the timer
+## Alternate Triggers(if user need a break during the HW time)
+- users the pause button
+
+===================================================================
+
+Case Name: to-do list
+## summary 
+- system will generate a to-do list to allow student to check the their missions. 
+## Actors
+- users(students)
+## preconditions 
+- student must have missions 
+## Triggers
+- press a plus icon to add to-do item
+- input missions in mission edittexts
+- input due date in deadline edittexts
+- click the submit button
+## primary Sequence
+- 1. navigate to to-do List interface
+- 2. press a plus button to add items
+- 3. system convert to a new interface 
+- 4. input mission description
+- 5. input deadline
+- 6. click the submit button
+- 7. system provide a listview to show all missions and due dates
+## Alternate Sequences (If user completed a mission)
+- click the item on list-view
+- the system generate a dialog ask user if they completed the mission or not
+- click yes button to make this mission change to pass mission
+
+## Alternate trigger
+- user click click the mission item
+- user click yes on dialog
+
+===================================================================
+Case Name : convert markdown notes to pdf
+## Summary
+- application allow people to convert their existing markdown notes to PDF.
+## Actor
+- (user) student
+## preconditions 
+- user has existing Markdown note on this application
+- user want to convert it to PDF
+## trigger
+- user click the note icons in the note store
+- user click the icon to manage notes
+- user select the convert to PDF button
+## primary Sequence
+- user click the note icon 
+- then user click the management icon
+- system pop out a list-view
+- select the item: convert to PDF
+- system will covert the note to a PDF
+
+================================================================
+Case Name : Give hints if the user doesn't know the result
+## Summary
+- this application will give some hints when user cant get the results of qustions
+## Actor
+- (user) student
+
+## preconditions 
+- user want to get hint
+- the target question has a hint
+## trigger
+- user click the hint button 
+## primary Sequence
+- user click the hink button
+- application pop out a dialog to show the hints
 
