@@ -178,3 +178,147 @@ users want to focus on reviewimg or studying or learning
  \### Alternate Trigger: timer when cook, or run
 
 \### Alternate Postconditions
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Case Name: Light & Dark mode toggle
+
+## Summary
+	- Users will be able to toggle from a light to dark mode and
+	  vice versa
+
+## Actors
+	- App User (Student)
+
+## Preconditions
+	- Access the website
+
+## Triggers
+	- Click Toggle Button (Moon logo/Sun Logo)
+	- Likely positioned on navbar
+
+## Primary Sequence
+	- Step 1: Access Site
+	- Step 2: Locate navbar & click button
+
+## Primary Postconditions
+	- Screen background changes from dark to light or vice versa
+	- Buttons, Text, etc are updated to match color format
+
+======================================================================================
+Case Name: Share Flash Cards
+
+## Summary
+	- Users will be able to share flash card information with other
+	  users registered on the website via email.
+
+## Actors
+	- App User (Student)
+
+## Preconditions
+	- Access the website
+	- Logged into site
+		- Regsiter if not signed up
+
+## Triggers
+	- Click share button
+
+## Primary Sequence
+	- Step 1: Access Site
+	- Step 2: Login or Register
+	- Step 3: Navigate to Flash Card Section
+	- Step 4: Select what flash cards to share
+	- Step 5: Click share flash cards button
+
+## Primary Postconditions
+	- Pop-up appears asking for the recipients email/username
+		- Sends flash cards
+
+## Alternate Sequences (If user is not registered)
+	- Step 1: Register 
+	- Step 2: Confirm email address (avoid spam)
+	- Step 3: Return back to flash card section
+	- Step 4: Ask user to create flashcards before attempting to share
+	
+======================================================================================
+
+Case Name: Email + SMS Reminders
+
+## Summary
+	- Users will be reminded days/hours before an assignment
+	  is due via Email and/or SMS.
+
+## Actors
+	- App User (Student)
+	- API's used
+
+## Preconditions
+	- Access the website
+	- Logged into site
+		- Regsiter if not signed up
+	- Enable Notifications in settings
+	- Add Phone Number / Email in settings
+
+## Triggers
+	- Settings checkbox/button to enable notifications
+	- Select assignments user wishes to be notified for
+
+## Primary Sequence
+	- Step 1: Access Site
+	- Step 2: Login or Register
+	- Step 3: Navigate to Settings
+	- Step 4: Add email and/or sms 
+	- Step 5: Navigate back to assignments tab
+	- Step 6: Select assignments you wish to recieve notifications for
+
+## Primary Postconditions
+	- Pop-up appears asking to confirm reminders
+	- Same pop-up asks when each reminder should occur (Every 6hours, day, etc)
+		- Sends notifications when the timer condition is met
+
+## Alternate Sequences (If user is not registered)
+	- Step 1: Register 
+	- Step 2: Confirm email address (avoid spam)
+	- Step 3: Return back to settings
+	- Step 4: Ask user to Add email and/or sms
+	- Step 5: Add assignments before receving notifications
+	- Step 6: Select assignments you wish to recieve notifications for
+
+======================================================================================
+
+
+Case Name: Break Alert
+
+## Summary
+	- Users will be alerted to take a break every 'x' amount of time 
+	  to avoid stress, eye damage, etc.
+
+## Actors
+	- App User (Student)
+	- API's used
+
+## Preconditions
+	- Access the website
+	- Logged into site
+		- Regsiter if not signed up
+	- Set up break alert time interval in settings
+
+## Triggers
+	- Automatic
+
+## Primary Sequence
+	- Step 1: Access Site
+	- Step 2: Login or Register
+	- Step 3: Navigate to Settings
+	- Step 4: Set break interval & save settings
+
+## Primary Postconditions
+	- Pop-up appears letting the user know its time for
+	  a break.
+
+## Alternate Sequences (If user is not registered)
+	- Step 1: Register 
+	- Step 2: Confirm email address (avoid spam)
+	- Step 3: Return back to settings
+	- Step 4: Set break interval & save settings
+
